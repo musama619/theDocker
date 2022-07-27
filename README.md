@@ -101,3 +101,13 @@ Feature of docker that allow to specify folders on host computer that can be mad
 - **-v** flag will create a volumn which maps project *api* folder with container folder *app*
 - second **-v** flag is anonymous volumn would map the container's node_modules folder to somewhere else in the host computer managed by docker
 - **:nodemon** is the tag of image
+
+## Docker Compose
+helps in running multiple containers that are part of same project. Its a single docker compose file `docker-compose.yaml` which contains all the container configuration of project. 
+
+- `docker compose up`
+- `docker compose down`
+
+----------
+
+*notes are taken from netninja* [docker playlist](https://youtube.com/playlist?list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7)
